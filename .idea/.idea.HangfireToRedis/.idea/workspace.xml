@@ -6,25 +6,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d47fc54-b84f-4427-8094-ff0db5e6ffd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HangfireToRedis/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HangfireToRedis/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HangfireToRedis/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HangfireToRedis/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HangfireToRedis/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HangfireToRedis.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HangfireToRedis/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HangfireToRedis/HangfireToRedis.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HangfireToRedis/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HangfireToRedis/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HangfireToRedis/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HangfireToRedis/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HangfireToRedis/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Entities/Drug.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Enums/Status.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Interfaces/IDrugRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Interfaces/IHangfireManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Interfaces/IRedismanager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HangfireToRedis/Controllers/DrugsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/DependencyInjection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Wrappers/HangfireManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Wrappers/RedisManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/DatabaseContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/DependencyInjection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/Persistence.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/Repositories/DrugRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HangfireToRedis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HangfireToRedis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireToRedis.sln" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireToRedis.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireToRedis/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireToRedis/HangfireToRedis.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireToRedis/HangfireToRedis.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireToRedis/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireToRedis/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireToRedis/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireToRedis/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireToRedis/WeatherForecast.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9d4f4ac7db6d2c5d183ab2d92602280ed4349fd6e6a1b6313546b3d01fdab5/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HangfireService/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RedisService/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FgDGaxE0MURpKUXi7kTP3jfAlq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,6 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ReSpellerSettingsId",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664904741876</updated>
-      <workItem from="1664904747415" duration="483000" />
+      <workItem from="1664904747415" duration="7010000" />
     </task>
     <servers />
   </component>
